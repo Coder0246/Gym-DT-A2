@@ -1,0 +1,55 @@
+# Ignore VS Code specific files
+.vscode/
+
+# Ignore Node.js specific files
+node_modules/
+
+# Ignore user-specific VS Code settings
+.vscode/settings.json
+
+# Ignore temporary files
+*.swp
+*~
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore local development environment files
+.env
+
+# The following is not needed as I am pushing only the htdocs folder to Github - 
+# but I have included it anyway.
+# Ignore XAMPP temporary files
+/xampp/tmp/
+/xampp/htdocs/logs/
+
+# Ignore session files
+/xampp/htdocs/session/*
+
+# Ignore database files
+/xampp/mysql/data/
+
+# Ignore XAMPP configuration files that may contain sensitive information
+/xampp/apache/conf/httpd.conf
+/xampp/mysql/bin/my.ini
+
+# Ignore XAMPP backup and log files
+/xampp/htdocs/backups/
+/xampp/apache/logs/
+/xampp/mysql/data/mysql-bin.*
+
+# Ignore XAMPP system files
+/xampp/htdocs/favicon.ico
+/xampp/php/php.ini
+
+# Ignore XAMPP error logs
+/xampp/apache/logs/*.log
+/xampp/mysql/data/*.err
+
+# Ignore XAMPP temporary files
+/xampp/apache/logs/*
+/xampp/mysql/data/*.pid
+
+# Ignore XAMPP security files
+/xampp/security/*
